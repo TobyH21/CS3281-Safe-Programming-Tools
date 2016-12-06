@@ -15,14 +15,4 @@ int main() {
     printf("%d\n", *ptr_one);
     return 0;
 }
-// dangling pointer
-char *a = malloc(128*sizeof(char));
-char *b = malloc(128*sizeof(char));
-b = a;
-free(a);
-free(b); // will not free the pointer to the original allocated memory.
 
-// double free memory 
-char *a = malloc(128*sizeof(char));
-free(a);
-free(a);
