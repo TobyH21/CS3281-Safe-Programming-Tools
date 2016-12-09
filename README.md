@@ -12,5 +12,8 @@ Memory leak
 Example 4 
 Dangling pointer
 
-Exampple 5
-malloc.c and simple.c
+Example 5
+malloc.c
+
+Example 6
+simple.c
