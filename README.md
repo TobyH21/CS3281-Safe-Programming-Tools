@@ -1,19 +1,21 @@
 # CS3281-Safe-Programming-Tools
 
+
+
 Example 1
-Deadlock
-
-Example 2
-Race Condition
-
-Example 3
 Memory leak
 
-Example 4 
+Example 2 
 Dangling pointer
 
-Example 5
+Example 3
 malloc.c
 
-Example 6
+Example 4
 simple.c
+
+Example 5
+Deadlock
+
+Example 6
+Race Condition
